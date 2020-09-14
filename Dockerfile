@@ -1,3 +1,4 @@
 FROM php:7.4-apache
-LABEL maintainer="Paul Redmond"
-COPY index.php /var/www/html
+
+LABEL maintainer="Preston Flamion"
+COPY app/public/* /var/www/html
